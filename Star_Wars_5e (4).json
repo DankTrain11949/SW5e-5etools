@@ -1,0 +1,59 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Star Wars SW5e",
+				"abbreviation": "SW5e",
+				"full": "Star Wars 5e",
+				"url": "https://sw5e.com/",
+				"authors": [
+					"None"
+				],
+				"convertedBy": [
+					"Test"
+				]
+			}
+		],
+		"dateAdded": 1592195342,
+		"dateLastModified": 1592195342
+	},
+	"spell": [
+		{
+			"name": "AFFECT MIND - Netural",
+			"source": "Star Wars SW5e",
+			"page": 0,
+			"level": 0,
+			"school": "",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Choose a target within range that isn't hostile toward you. The target must make a Wisdom saving throw. On a failed save, you have advantage on all Charisma checks directed at that target.",
+				"On a successful save, the creature does not realize that you tried to use the Force to inuence its mood, but it becomes immune to this power for one day. This power has no eect on droids or constructs."
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		}
+	]
+}
